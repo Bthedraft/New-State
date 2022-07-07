@@ -1,0 +1,446 @@
+body{
+    background: #E5E5E5;
+    margin: 40px 50px;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    max-width: 1200px;
+    grid-gap: 50px;
+    row-gap: 250px;
+}
+
+.headernav{
+    border-right: 2px solid white;
+}
+
+
+
+.leftfooter{
+    border-right: 3px solid white;
+}
+
+.headernav{
+    display: grid;
+    max-width: 300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    color: #14213D;
+    font-family: gopher, sans-serif;
+    font-style: normal;
+    font-weight: 2000;
+}
+
+h2{
+    font-family: mrs-eaves, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 71px;
+    text-size-adjust: 48;
+    letter-spacing: -0.8;
+    color: #14213D;
+}
+
+
+
+h3{
+    font-family: mrs-eaves, serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    text-size-adjust: 24;
+    letter-spacing: 0;
+    color: #14213D;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+    
+    
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+}
+
+a{
+    font-family: mrs-eaves, serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    text-size-adjust: 24;
+    letter-spacing: 0;
+    color: #14213D;
+    text-decoration: none;
+}
+
+
+
+p{
+    font-family: double-pica, serif;
+    font-style: extra light;
+    text-size-adjust: 24;
+    line-height: 1.2;
+    letter-spacing: -0.4;
+    color: #14213D;
+    font-size: 35px;
+    font-weight: 400;
+    font-weight: -0.1px;
+    margin-top: 65px;
+}
+
+h3{
+    color: #14213D;
+}
+
+
+.brandId{
+  margin: 3%;
+            position: relative;
+          }
+
+
+.homenav{
+    position: absolute;
+    top: -0.15px;
+    left: 80px;
+    
+}
+     
+
+
+
+
+
+.work{
+    color: #14213D;
+    cursor: pointer;
+    transition: 1ms;
+
+}
+
+.work:hover{
+    color: #CEBC19;
+}
+
+.contact{
+    color: #14213D;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.contact:hover{
+    color: #CEBC19;
+}
+
+.homenav > a{
+    color: rgba(20, 33, 61, 1);
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.homenav > a:hover{
+    color: #CEBC19;
+}
+
+.brandId{
+    font-family: pgzb;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: rgba(20, 33, 61, 1);
+}
+
+
+
+h1{
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Quotecontent {
+	-webkit-animation: Quotecontent 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) both;
+     animation: Quotecontent 2s cubic-bezier(0.190, 1.000, 0.220, 1.000) both;
+}
+
+@-webkit-keyframes Quotecontent{
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes Quotecontent {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .pic {
+    width: 70%;
+    height: 50vh;
+    background: url("http:unsplash.it/400x300");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .button {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    height: 60px;
+    width: 100px;
+    background: aquamarine;
+  }
+  
+  .button:before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: slategray;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 24px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover:before {
+    right: 34px;
+    width: 35px;
+  }
+  
+  .button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #000000;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover:after {
+    right: 34px;
+    right: 30px;
+  }
+
+/*Hearbeat anime for the circle*/
+
+.brandId{
+
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+  }
+
+
+  @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+/*sticky header Style space for the work and contact button*/
+
+.headernav{
+  margin-top: 8px;
+}
+
+.headernav{
+  background: transparent;
+
+  
+  position: sticky;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: 99;
+  box-shadow: transparent;
+}
+
+
+
+/*sticky header Style space for logo button/img(BrianOluohu ad the circle*/
+
+.brandId{
+  margin-top: 20px;
+}
+
+.brandId{
+  background: transparent;
+
+  
+  position: sticky;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: 99;
+  box-shadow: transparent;
+}
